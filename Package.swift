@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
   name: "swift-identified-collections",
+  platforms: [.iOS(.v13), .macOS(.v10_15), .watchOS(.v9), .tvOS(.v13)],
   products: [
     .library(
       name: "IdentifiedCollections",
